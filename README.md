@@ -9,7 +9,8 @@ The response will be JSON with one boolean property, e.g. ```{"disposable":false
 
 `Using jQuery?`
 
-```<script>
+```
+<script>
     $( "#email" ).change(function() {
       var val = $("#email").val();
       $.get('https://antibot.pw/api/disposable?email='+val,
@@ -19,4 +20,5 @@ The response will be JSON with one boolean property, e.g. ```{"disposable":false
             }
       });
     });
-</script>```
+</script>
+```
